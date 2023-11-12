@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 800px;
+    font-size: 500%;
+    margin: auto;
+}
+
+.line{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: -335px;
+}
+

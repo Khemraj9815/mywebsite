@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url(image/wall1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 88px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul li a{
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+  }
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.intro h1{
+    font-size: 50px;
+    text-shadow:  1px 1px 5px white;
+
+}
+.intro h2{
+    font-size: 30px;
+}
+.intro p{
+    font-size: 30px;
+}
+  
+  .footer {
+    text-align: center;
+    padding: 100px 0;
+    padding-bottom: 40px;
+    color: #4b4c4d;
+  }
+  
+  .footer .social a{
+    color: inherit;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 10%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+  
+  .footer .social a:hover {
+    opacity: 1;
+  }
+  
